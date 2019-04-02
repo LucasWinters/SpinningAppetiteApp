@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="469dp"
+        android:layout_height="678dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bluest"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.726" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/mexicanBtn"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:background="@drawable/tacos"
+                android:onClick="mexicanOnClick"
+                android:text="@string/space" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:text="@string/mexican"
+                android:textSize="30sp"
+                android:gravity="center_horizontal"/>
+
+            <Button
+                android:id="@+id/asianBtn"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:background="@drawable/asian"
+                android:onClick="asianOnClick"
+                android:text="@string/space" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:text="@string/asian"
+                android:textSize="30sp"
+                android:gravity="center_horizontal"/>
+
+            <Button
+                android:id="@+id/americanBtn"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:background="@drawable/american"
+                android:onClick="americanOnClick"
+                android:text="@string/space" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:text="@string/american"
+                android:textSize="30sp"
+                android:gravity="center_horizontal"/>
+
+            <Button
+                android:id="@+id/italianBtn"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:background="@drawable/italian"
+                android:onClick="italianOnClick"
+                android:text="@string/space" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:text="@string/italian"
+                android:textSize="30sp"
+                android:gravity="center_horizontal"/>
+
+            <Button
+                android:id="@+id/indianBtn"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:background="@drawable/indian"
+                android:onClick="indianOnClick"
+                android:text="@string/space" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:text="@string/indian"
+                android:textSize="30sp"
+                android:gravity="center_horizontal"/>
+
+            <Button
+                android:id="@+id/greekBtn"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:background="@drawable/greek"
+                android:onClick="greekOnClick"
+                android:text="@string/space" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:text="@string/greek"
+                android:textSize="30sp"
+                android:gravity="center_horizontal"/>
+
+            <Button
+                android:id="@+id/mediterraneanBtn"
+                android:layout_width="match_parent"
+                android:layout_height="121dp"
+                android:background="@drawable/mediterranean"
+                android:onClick="mediterraneanOnClick"
+                android:text="@string/space" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:gravity="center_horizontal"
+                android:text="@string/mediterranean"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/findBtn"
+                android:layout_width="match_parent"
+                android:layout_height="84dp"
+                android:onClick="findRestaurant"
+                android:text="@string/find" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.constraint.ConstraintLayout>

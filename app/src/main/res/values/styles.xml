@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/cardview_light_background</item>
+        <item name="colorPrimaryDark">@color/cardview_dark_background</item>
+        <item name="colorAccent">@android:color/holo_blue_dark</item>
+        <item name="android:textColorPrimary">@color/cardview_light_background</item>
+        <item name="android:textColorSecondary">@android:color/holo_blue_dark</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CustomTheme" parent="Theme.AppCompat" >
+    </style>
+
+    <style name="GenreTheme" parent="TextAppearance.AppCompat" />
+    <style name="NameTheme" parent="TextAppearance.AppCompat" />
+    <style name="PriceTheme" parent="TextAppearance.AppCompat" />
+
+
+
+</resources>

@@ -1,0 +1,19 @@
+{
+  "results": [
+    {
+      "name": "The BK Lounge",
+      "genre": "Fast Food",
+      "price": "Tier 1"
+    },
+    {
+      "name": "Taco Bell",
+      "genre": "Fast Food",
+      "price": "Tier 1"
+    },
+    {
+      "name": "McDonalds",
+      "genre": "Fast Food",
+      "price": "Tier 1"
+    }
+  ]
+}
